@@ -15,12 +15,12 @@ device.name2=OnePlus5T
 device.name3=cheeseburger
 device.name4=OnePlus5
 device.name5=
-supported.versions=9 - 12
+supported.versions=9 - 13
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
